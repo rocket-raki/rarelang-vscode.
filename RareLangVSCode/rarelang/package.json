@@ -1,0 +1,47 @@
+{
+  "name": "rarelang",
+  "displayName": "RareLang",
+  "description": "A Visual Studio Code extension for the Rare programming language.",
+  "version": "1.0.0", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocket-raki/rarelang-vscode"   },
+  
+  "keywords": [
+    "RareLang",
+    "syntax",
+    "language",
+    "vscode"
+  ],
+  "publisher": "Rakesh",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "Rare",
+      "aliases": ["RareLang", "Rare","rare"],
+      "extensions": [".rare"],
+      "configuration": "./language-configuration.json"
+    
+    }],
+    "icon": "./images/rare.ico",  
+       "activationEvents": [
+      "onLanguage:rare"
+    ],
+    "grammars": [{
+      "language": "rarelang",
+      "scopeName": "source.rare",
+      "path": "./syntaxes/.tmLanguage.json"
+    }]
+    ,
+  "devDependencies": {
+    "@vscode/vsce": "^2.15.0" 
+  }
+  }
+}
+
+

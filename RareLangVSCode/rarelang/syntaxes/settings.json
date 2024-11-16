@@ -1,0 +1,200 @@
+{
+    "editor.snippetSuggestions": "top",
+    "files.associations": {
+      "*.ra": "rare"
+    },
+    "rare": {
+      "snippets": {
+        "Rare Variable Assignment": {
+          "prefix": "give",
+          "body": [
+            "give ${1:variable_name} the value ${2:value}"
+          ],
+          "description": "Assign a value to a variable in Rare"
+        },
+        "Rare Input": {
+          "prefix": "ask",
+          "body": [
+            "ask ${1:variable_name} for input"
+          ],
+          "description": "Prompt the user for input in Rare"
+        },
+        "Rare If Condition": {
+          "prefix": "if",
+          "body": [
+            "if ${1:condition} do",
+            "\t${2:action}",
+            "end if"
+          ],
+          "description": "If statement in Rare"
+        },
+        "Rare While Loop": {
+          "prefix": "while",
+          "body": [
+            "while ${1:condition} do",
+            "\t${2:action}",
+            "end while"
+          ],
+          "description": "While loop in Rare"
+        },
+        "Rare Function Definition": {
+          "prefix": "define function",
+          "body": [
+            "define function ${1:function_name} with ${2:param1}, ${3:param2} do",
+            "\t${4:body}",
+            "end function"
+          ],
+          "description": "Define a function in Rare"
+        },
+        "Rare Function Call": {
+          "prefix": "call",
+          "body": [
+            "call ${1:function_name} with ${2:param1}, ${3:param2}"
+          ],
+          "description": "Call a function in Rare"
+        },
+        "Rare Class Definition": {
+          "prefix": "define class",
+          "body": [
+            "define class ${1:class_name} with ${2:attribute1}, ${3:attribute2} do",
+            "\t${4:method_definition}",
+            "end class"
+          ],
+          "description": "Define a class in Rare"
+        },
+        "Rare Object Creation": {
+          "prefix": "create object",
+          "body": [
+            "create object ${1:object_name} with ${2:class_name}"
+          ],
+          "description": "Create an object from a class in Rare"
+        }
+      ,
+
+  
+    "Rare: Variable Assignment": {
+      "prefix": "give",
+      "body": [
+        "give ${1:variable} the value ${2:value}"
+      ],
+      "description": "Assign a value to a variable"
+    },
+    "Rare: User Input": {
+      "prefix": "ask",
+      "body": [
+        "ask ${1:variable} for input"
+      ],
+      "description": "Get user input and store it in a variable"
+    },
+    "Rare: Conditional If": {
+      "prefix": "if",
+      "body": [
+        "if ${1:condition} do",
+        "  ${2:action}",
+        "end if"
+      ],
+      "description": "Conditional if statement"
+    },
+    "Rare: While Loop": {
+      "prefix": "while",
+      "body": [
+        "while ${1:condition} do",
+        "  ${2:action}",
+        "end while"
+      ],
+      "description": "While loop"
+    },
+    "Rare: Define Function": {
+      "prefix": "define function",
+      "body": [
+        "define function ${1:function_name} with ${2:params} do",
+        "  ${3:body}",
+        "end function"
+      ],
+      "description": "Define a function"
+    },
+    "Rare: Call Function": {
+      "prefix": "call",
+      "body": [
+        "call ${1:function_name} with ${2:params}"
+      ],
+      "description": "Call a function"
+    },
+    "Rare: Define Class": {
+      "prefix": "define class",
+      "body": [
+        "define class ${1:class_name} with ${2:attributes} do",
+        "  ${3:methods}",
+        "end class"
+      ],
+      "description": "Define a class"
+    },
+    "Rare: Create Object": {
+      "prefix": "create object",
+      "body": [
+        "create object ${1:object_name} with ${2:class_name}"
+      ],
+      "description": "Create an object of a class"
+    },
+    "Rare: Return Statement": {
+      "prefix": "return",
+      "body": [
+        "return ${1:value}"
+      ],
+      "description": "Return a value from a function"
+    },
+    "Rare: Print Statement": {
+      "prefix": "print",
+      "body": [
+        "print ${1:value}"
+      ],
+      "description": "Print a value to the console"
+    },
+    "Rare: Comment": {
+      "prefix": "comment",
+      "body": [
+        "# ${1:comment_text}"
+      ],
+      "description": "Inline comment"
+    },
+    "Rare: Declare Variable": {
+      "prefix": "declare",
+      "body": [
+        "declare ${1:variable} as ${2:type}"
+      ],
+      "description": "Declare a variable with a type"
+    },
+    "Rare: Import Module": {
+      "prefix": "import",
+      "body": [
+        "import ${1:module_name}"
+      ],
+      "description": "Import an external module"
+    },
+    "Rare: Try-Catch Block": {
+      "prefix": "try",
+      "body": [
+        "try",
+        "  ${1:code_block}",
+        "catch ${2:error_type} do",
+        "  ${3:error_handling}",
+        "end try"
+      ],
+      "description": "Try-catch block for error handling"
+    },
+    "Rare: Switch-Case": {
+      "prefix": "switch",
+      "body": [
+        "switch ${1:variable}",
+        "  case ${2:value}:",
+        "    ${3:action}",
+        "  default:",
+        "    ${4:default_action}",
+        "end switch"
+      ],
+      "description": "Switch-case structure for multi-branch decision making"
+    }
+}
+
+    }
+}
